@@ -1,24 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mt-12">
+      <h1 className="text-2xl font-semibold text-gray-700 text-center">
+        You're ready to go with using <span className="text-blue-700"> React</span> and <span className="text-purple-700"> Tailwind!</span>
+      </h1>
     </div>
   );
 }
